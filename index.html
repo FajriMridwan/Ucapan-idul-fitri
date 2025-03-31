@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Hari Raya Idul Fitri</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Pastikan nama file CSS sesuai -->
+</head>
+<body>
+    <!-- Halaman Input Username -->
+    <div id="usernameInput" class="username-input">
+        <h1 class="pixel-text">Masukkan Username Anda</h1>
+        <input type="text" id="username" placeholder="Username" class="username-field">
+        <button id="submitUsername" class="pixel-button">Submit</button>
+    </div>
+
+    <!-- Konten Utama -->
+    <div class="error" id="mainContent" style="display: none;">
+        <div class="error__overlay"></div>
+        <div class="error__content">
+            <h1 class="pixel-text" id="greeting"></h1> <!-- Tempat untuk menampilkan username -->
+            <p class="pixel-text">Mohon maaf lahir dan batin.</p>
+            <div class="buttons">
+                <button id="forgiveBtn" class="pixel-button">Maafin aku</button>
+                <button id="notForgiveBtn" class="pixel-button">Enggak</button>
+            </div>
+            <p id="response" class="pixel-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Pastikan nama file JS sesuai -->
+</body>
+</html>
